@@ -1,0 +1,42 @@
+ .container-creatin {
+  width: 100%;
+  height: 100%;
+}
+
+.cim {
+  width: 100%;
+  height: 100%;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+.cim h1 {
+  font-size: 50px;
+  line-height: 1;
+  color: black;
+  margin: 0 0 45px;
+}
+
+.cim strong {
+  font-size: 20px;
+  font-weight: 10px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.dologok {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 8rem 0;
+}
+@media (max-width: 600px) {
+  .cim {
+    padding-left: 5px;
+  }
+  .dologok {
+    padding: 3rem 0;
+  }
+}
